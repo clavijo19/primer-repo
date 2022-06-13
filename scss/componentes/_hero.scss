@@ -1,0 +1,20 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:$color2;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url("/imagenes/juegos4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+ h1{
+    color: $color2;
+}

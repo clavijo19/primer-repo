@@ -1,0 +1,80 @@
+@media (min-width:720px){
+    header{
+        position:fixed;
+        width: 100%;
+    .contenedor{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+         nav{
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+        }
+    }
+        .somos-mejores .container{
+                display: flex;
+                justify-content: space-evenly;
+        .texto{
+            width: 50%;
+            max-width: 600px;
+            text-align: initial;
+            padding-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h2{
+            margin-top: 0px;
+        }
+         .img-container{
+            background-image: url("/imagenes/juegos6.jpeg");
+            background-size: cover;
+            background-position: center center;
+            height: 500px;
+            width: 450px;
+        }
+    }
+        .nuestros-juegos .juegos{
+            display: flex;
+            justify-content: center;
+         p{
+            display: block;
+            margin-bottom: 30px;
+        }
+         h3{
+            margin-top: 0;
+        }
+        .carta{
+            padding: 15px;
+        }
+    }
+        .caracteristicas{
+            display: flex;
+            justify-content: center;
+            background-image: url(/imagenes/juegos7.webp);
+            background-repeat: no-repeat;
+            background-size: 500px 400px;
+            background-position: calc(100vw - 750px) 120px;
+       .container{
+            text-align: initial;
+        }
+        ul{
+            margin-left: 100px;
+        }
+    }
+        .final h2{
+            font-size: 3em;
+        button{
+            font-size: 2em;
+        }
+    }
+        footer.container{
+            justify-content: flex-end;
+        }
+    }
+    @media (min-width: 1200px){
+        .caracteristicas{
+            background-position-x: calc(100vw - 800px);
+        }
+    }
