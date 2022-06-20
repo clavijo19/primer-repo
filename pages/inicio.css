@@ -14,8 +14,8 @@ body{
     display: grid;
     /* definir las filas y la cantidad*/
     grid-template-rows:auto auto auto;
-    /*definir las columnas y la cantidad*/
-    grid-template-columns:  repeat(3 ,1fr);
+    /*definir las columnas y la cantidad tengo esta funcio la cual me permite que sea responsible es repeat(auto-fill, minmax(20rem, 1fr));*/
+    grid-template-columns:  repeat(auto-fill, minmax(20rem, 1fr));
     border:2px solid  blue;
     /* margen interno en una grilla*/
     gap: 25px;
@@ -36,11 +36,5 @@ body{
    border-radius: 10px; 
 }
 
-/*@media (min-width: 600px){
-   .container.imagen{
-      background-color:antiquewhite;
-   }
-   
 
-   
-}*/
+
