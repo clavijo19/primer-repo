@@ -1,0 +1,46 @@
+/* declaro que e sun a grilla*/
+body{
+   background-color: blue;
+}
+
+.logo h1,h3{
+   color: black;
+   display:flex;
+   justify-items: center;
+   justify-content: center;
+}
+
+.container .imagen{
+    display: grid;
+    /* definir las filas y la cantidad*/
+    grid-template-rows:auto auto auto;
+    /*definir las columnas y la cantidad*/
+    grid-template-columns:  repeat(3 ,1fr);
+    border:2px solid  blue;
+    /* margen interno en una grilla*/
+    gap: 25px;
+}
+ 
+
+ footer{
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items:flex-end;
+}
+
+
+.medidas{
+   width: 320px;
+   height: 300px;
+   border-radius: 10px; 
+}
+
+/*@media (min-width: 600px){
+   .container.imagen{
+      background-color:antiquewhite;
+   }
+   
+
+   
+}*/
