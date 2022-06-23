@@ -1,4 +1,6 @@
 
+
+
 header{
     background-color: rgb(235,235,235);}
 .contenedor{
@@ -13,12 +15,10 @@ header{
     font-size: 1.6em;
 }
 .contenedor{
-    display: flex;
-    flex-direction: column;
+   @extend %principal;
     align-items: center;}
  nav{
-    display: flex;
-    flex-direction: column;
+    @extend %principal;
     text-align: center;
     padding-bottom: 25px;
 }

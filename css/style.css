@@ -44,13 +44,9 @@ header {
   font-size: 1.6em; }
 
 .contenedor {
-  display: flex;
-  flex-direction: column;
   align-items: center; }
 
 nav {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   padding-bottom: 25px; }
 
@@ -61,11 +57,7 @@ a {
   color: black; }
 
 a:hover {
-  color: blue;
-  transform: scale(1.5);
-  transition: all 2s;
-  
-}
+  color: blue; }
 
 button {
   font-size: 1em;
@@ -77,9 +69,7 @@ button {
   color: white;
   background-color: blue; }
   button button:hover {
-    background-color: #2121f7;
-    transform: scale(1.5);
-    transition: all 2s; }
+    background-color: #2121f7; }
 
 .hero {
   display: flex;
@@ -232,3 +222,8 @@ footer {
 @media (min-width: 1200px) {
   .caracteristicas {
     background-position-x: calc(100vw - 800px); } }
+
+/* puedo meter las propiedades que necesite y quiera*/
+.contenedor, nav {
+  display: flex;
+  flex-direction: column; }
